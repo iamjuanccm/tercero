@@ -1,0 +1,31 @@
+Historia del lenguaje C
+
+Lo que se:
+Lenguaje compilado y fuertemente tipado, que fue desarrollado después de otros lenguajes como A y B.
+La mayoría de los lenguajes de programación actuales están basados en C.
+Se usa para el desarrollo de sistemas operativos, el kernel de GNU/Linux está escrito en lenguaje C.
+Los creadores fueron Dennis Ritchie y Brian Kernighan.
+
+¿Qué?
+C es un lenguaje de programación orientado a la implementación de sistemas operativos, concretamente Unix. De tipos de datos estáticos, débilmente tipado, de medio nivel, que dispone de las estructuras típicas de los lenguajes de alto nivel pero, a su vez, dispone de construcciones del lenguaje que permiten un control a bajo nivel. 
+
+¿Quién?
+Fue desarrollado originalmente  por Dennis Ritchie. Quién contó con la colaboración de Brian Kernighan
+
+¿Cómo?
+El objetivo era encontrar un compilador que garantizara la consistencia y la velocidad de cada terminal, y entender mejor el sistema operativo Unix. En pocas palabras, lo que se quería era un sistema operativo eficiente que pudiera evolucionar sin sufrir vergonzosas ralentizaciones.
+
+
+¿Dónde?
+El desarrollo inicial de C se llevó a cabo en los Laboratorios Bell de AT&T entre 1969 y 1973
+
+Ejemplo. Hola Mundo
+
+hola_mundo.c
+
+include <stdio.h>
+int main(){
+      printf("Hola mundo");
+      return 0;
+}
+
